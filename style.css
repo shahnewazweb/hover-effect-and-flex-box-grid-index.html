@@ -1,0 +1,229 @@
+.container {
+  position: relative;
+  width: 33%;
+  margin: auto;
+}
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.overlay {
+  position: absolute;
+  background-color: rgb(51, 51, 51);
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: green;
+  padding: 10px 15px;
+}
+
+/*Container 2*/
+.container-2 {
+  position: relative;
+  width: 33%;
+  margin: 50px auto;
+}
+.image-2 {
+  width: 100%;
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: 0.5s ease-in-out;
+}
+.middle {
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-2:hover .image-2 {
+  opacity: 0.3;
+}
+
+.container-2:hover .middle {
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.text-2 {
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+/*Container 3*/
+.container-3 {
+  position: relative;
+  width: 33%;
+  margin: auto;
+}
+.image-3 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.overlay-3 {
+  position: absolute;
+  background-color: rgb(51, 51, 51);
+  transition: 0.5s ease-in-out;
+  width: 100%;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  height: 0;
+}
+.container-3:hover .overlay-3 {
+  bottom: 0;
+  height: 100%;
+}
+.text-3 {
+  background: green;
+  padding: 10px 15px;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Container 4*/
+.container-4 {
+  position: relative;
+  width: 33%;
+  margin: 50px auto;
+}
+.image-4 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.overlay-4 {
+  position: absolute;
+  background-color: rgb(51, 51, 51);
+  transition: 0.5s ease-in-out;
+  width: 100%;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0;
+}
+.container-4:hover .overlay-4 {
+  height: 100%;
+}
+.text-4 {
+  background: green;
+  padding: 10px 15px;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Container */
+.container-5 {
+  position: relative;
+  width: 33%;
+  margin: 50px auto;
+}
+.image-5 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.overlay-5 {
+  position: absolute;
+  background-color: rgb(51, 51, 51);
+  transition: 0.5s ease-in-out;
+  width: 0;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+.container-5:hover .overlay-5 {
+  right: 0;
+  width: 100%;
+}
+.text-5 {
+  background: green;
+  padding: 10px 15px;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Container-6 */
+.container-6 {
+  position: relative;
+  width: 33%;
+  margin: 50px auto;
+}
+.image-6 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.overlay-6 {
+  position: absolute;
+  background-color: rgb(51, 51, 51);
+  transition: 0.5s ease-in-out;
+  width: 0;
+  overflow: hidden;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+.container-6:hover .overlay-6 {
+  width: 100%;
+}
+.text-6 {
+  background: green;
+  padding: 10px 15px;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+
+}
